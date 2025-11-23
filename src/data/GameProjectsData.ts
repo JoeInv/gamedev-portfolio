@@ -1,26 +1,24 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-1", "Optimistic Chubby", "img/projects/project-1-icon.png", 
-    `
+    new ProjectData("project-1", "Science Vs Fantasy", "img/projects/SVF3.png", `
     <div class="paragraph">
-     <strong>Optimistic Chubby</strong> is a thing of beauty that I am so proud of. It's available on Android because why not.
-     <br/>Image by <a href="https://www.pexels.com/fr-fr/@knownasovan" target="_blank">OVAN</a>.
+     <strong>Science Vs Fantasy</strong> was a Solo project I worked on for a semester. It is very similar to Plants vs Zombies, but with new towers, enemies, and a science vs fantasy theme.
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        <img src="img/SvF-Gif1.gif" class="gif" />
+        <img src="img/SvF-Gif2.gif" class="gif" />
     </div>
     <div class="paragraph center">
-        <a href="https://play.google.com/store/apps/details?id=some.playstore.thing" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
     </div>
 
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>One Playable Level</li>
+        <li>3 Enemy Types</li>
+        <li>4 Unique Towers</li>
+        <li>Laser Beam instead of lawnmowers</li>
         </ul>
     </div>
 
@@ -28,56 +26,47 @@ export default [
         <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
         <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
     </div>
-    `, "#23bd69", true),
-    new ProjectData("project-2", "Singing Addict", "img/projects/project-2-icon.png", `
+    `, "#23bd69", true, true),
+    new ProjectData("project-2", "Higher or Lower - IMDB Edition", "img/popcorn.png", `
     <div class="paragraph">
-        <strong>Optimistic Chubby Blog</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@adonyi-gabor-604571">Adonyi Gábor</a>.
+        <strong>Higher or Lower - IMDB Edition</strong> was a mobile version of the higher or lower game concept, using IMDB ratings as comparison points. This was built using React Native.
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        No Images Available at this time.
     </div>
 
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Mobile Game</li>
+        <li>Choose which movie has a higher IMDB rating</li>
+        <li>Can choose a genre of movies to play</li>
         </ul>
-    </div>
-
-    <div class="paragraph">
-    <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code is available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-    </div>
-    </div>
-
-    <div class="paragraph center">
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
     </div>
     `, "#5a78af"),
-    new ProjectData("project-3", "Drawing Overload", "img/projects/project-3-icon.png", `
+    new ProjectData("project-3", "Jump the Plank", "img/projects/project-3-icon.png", `
     <div class="paragraph">
-        <strong>Drawing Overload</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@miphotography">Miesha Maiden</a>.
+        <strong>Jump the Plank</strong> was a group project I worked on for a semester. It is a 2D platformer where the the player has to dodge obstacles and fight enemies to reach the end of each level. There are also boss fights in certain levels.
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        Trailer coming soon
     </div>
 
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>4 Levels in different environments</li>
+        <li>2 Boss Fights (Davy Jones and Cthulhu)</li>
+        <li>Plenty of different enemies and traps</li>
+        </ul>
+        My Contributions :
+        <ul>
+        <li>Player, Cannon, Davy Jones, and Cthulhu's sprites and animations</li>
+        <li>Cthulhu's Boss Fight: attacks, behavior, cutscenes, etc.</li>
+        <li>Level Design for all 4 levels and boss arenas</li>
+        <li>Made the tileset for Levels 1,2 and Davy Jones Arena</li>
+        <li>Davy Jones' death cutscene</li>
+        <li>Camera Behavior</li>
         </ul>
     </div>
 
@@ -95,59 +84,4 @@ export default [
         <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
     </div>
     `, "#383838"),
-    new ProjectData("project-4", "Eugeneable", "img/projects/project-4-icon.png", `
-    <div class="paragraph">
-    <strong>Eugeneable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-    <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@neo8iam">NEOSiAM 2020</a>.
-    </div>
-    
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
-
-    <div class="paragraph">
-        <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        </div>
-    </div>
-
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
-    </div>
-    `, "#e80fb7"),
-    new ProjectData("project-5", "Cloud Drew Land", "img/projects/project-5-icon.png", `
-    <div class="paragraph">
-        <strong>Cloud Drew Land</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@cottonbro">cottonbro</a>.
-    </div>
-    
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
-
-    <div class="paragraph">
-        <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-        </div>
-    </div>
-
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-    </div>`, "#e48246")
 ];

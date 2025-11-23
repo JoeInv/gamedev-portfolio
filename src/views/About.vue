@@ -4,17 +4,16 @@
 
     <div class="paragraph">
       <div>
-        I'm <strong>John Matrix</strong>, a former Delta Force operative, now a hobbyist lumberjack.<br/>
-        I spend my days living alone with my daughter Jenny, and cutting trees and carrying trunks around to keep in shape.
+        I'm <strong>Joe Inverso</strong>, a Game and Simulation major at Penn College of Technology.<br/>
       </div>
 
-      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">stuff</router-link>, on <router-link to="/other-projects">other stuff</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
+      <div style="margin-top: 20px;">I've worked on various <router-link to="/game-projects">game projects</router-link>, both solo and in teams, using Unity and React Native. I'm passionate about game development and am always looking to grow my skills and knowledge in the field.</div>
 
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John Rambo did a few years back. You can reach me at <a href="mailto:johnmatrix@deltaforce.us">johnmatrix@deltaforce.us</a> or <router-link to="/contact">through here</router-link>.</div>
+      <div style="margin-top: 40px;">I'm <strong>currently seeking an internship</strong> at a game studio, where I can apply my skills in real world projects and continue to grow. You can reach me at <a href="mailto:jxi8@pct.edu">jxi8@pct.edu</a> or <router-link to="/contact">through here</router-link>, and you can find my <router-link to="/resume">resume here</router-link>.</div>
     </div>
 
     <div class="photo">
-      <img src="img/avatar.png" alt="Avatar of John" /> 
+      <img src="img/Profile.png" alt="Profile Picture" /> 
     </div>
 
     <div style="clear:both"></div>
