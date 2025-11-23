@@ -1,7 +1,7 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-1", "Science Vs Fantasy", "img/projects/SVF3.png", `
+    new ProjectData("project-1", "Science Vs Fantasy", "img/projects/SvF3.png", `
     <div class="paragraph">
      <strong>Science Vs Fantasy</strong> was a Solo project I worked on for a semester. It is very similar to Plants vs Zombies, but with new towers, enemies, and a science vs fantasy theme.
     </div>
