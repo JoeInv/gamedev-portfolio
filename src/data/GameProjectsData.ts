@@ -21,18 +21,14 @@ export default [
         <li>Laser Beam instead of lawnmowers</li>
         </ul>
     </div>
-
-    <div class="paragraph center">
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
-    </div>
     `, "#23bd69", true, true),
-    new ProjectData("project-2", "Higher or Lower - IMDB Edition", "img/popcorn.png", `
+    new ProjectData("project-2", "Higher or Lower - IMDB Edition", "img/projects/HL1.png", `
     <div class="paragraph">
         <strong>Higher or Lower - IMDB Edition</strong> was a mobile version of the higher or lower game concept, using IMDB ratings as comparison points. This was built using React Native.
     </div>
     <div class="paragraph center">
-        No Images Available at this time.
+        <img src="img/projects/HL2.png" class="pc-screenshot" />
+        <img src="img/projects/HL3.png" class="pc-screenshot" />
     </div>
 
     <div class="paragraph">
@@ -44,7 +40,7 @@ export default [
         </ul>
     </div>
     `, "#5a78af"),
-    new ProjectData("project-3", "Jump the Plank", "img/projects/project-3-icon.png", `
+    new ProjectData("project-3", "Jump the Plank", "img/projects/JP.png", `
     <div class="paragraph">
         <strong>Jump the Plank</strong> was a group project I worked on for a semester. It is a 2D platformer where the the player has to dodge obstacles and fight enemies to reach the end of each level. There are also boss fights in certain levels.
     </div>
@@ -72,16 +68,8 @@ export default [
 
     <div class="paragraph">
         <div class="notice">
-        Playable in the browser (WebGL) on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code is available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
+        Playable version coming soon!
         </div>
-    </div>
-
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
     </div>
     `, "#383838"),
 ];
