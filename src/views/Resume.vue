@@ -16,8 +16,8 @@
         <div style="clear:both"></div>
       </div>
     </div>
-    <div class="photo">
-      <img src="img/Profile.png" alt="Photo of Joe Inverso" />
+    <div style="margin-left: 15px;">
+      <img src="img/resume-en.PNG" alt="Photo of Joe Inverso's resume" />
     </div>
 
     <div style="clear:both"></div>
@@ -66,7 +66,8 @@ h4 {
 
 .download-link {
   float:left;
-  margin-right: 50px;
+  margin-left: px;
+  padding-left: 250px;
 }
 
 .full-content div {
